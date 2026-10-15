@@ -15,4 +15,11 @@ cask "tridui" do
   app "TridUI.app"
 
   zap trash: "~/Library/Application Support/TridUI"
+
+  caveats <<~EOS
+    TridUI is not signed or notarized. If macOS blocks it, run:
+      xattr -dr com.apple.quarantine "#{appdir}/TridUI.app"
+    or allow it under System Settings → Privacy & Security → "Open Anyway".
+  EOS
+
 end
