@@ -1,6 +1,6 @@
 cask "tridui" do
-  version ""
-  sha256 "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  version "1.2.0"
+  sha256 "d9fe7362afec788d66cd0e6c1661e178059d860534dbe0f5635a9093ebaf264d"
 
   url "https://github.com/JMcrafter26/TridUI/releases/download/v#{version}/TridUI-macOS.dmg"
   name "TrID UI"
